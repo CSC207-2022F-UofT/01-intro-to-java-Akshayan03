@@ -178,8 +178,8 @@ public class Basics {
         for (int i = 0; i < arr.length; i++) {
             if (i % 2 == 1)
                 current_sum += arr[i];
-            else
-                continue;
+        }
+        return current_sum;
 
 
             /* TODO (Task 5): Complete this method body using a for-loop.
@@ -188,8 +188,7 @@ public class Basics {
              *                You can index into arrays as we do in Python
              *                (e.g. arr[i] gives you the item at index i).
              */
-        }
-        return current_sum;
+
 
         /*
          * TODO (Task 6): Submit the changes you made on GitHub!
